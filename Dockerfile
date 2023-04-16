@@ -4,7 +4,7 @@ MAINTAINER Sander Koenders <sanderkoenders@gmail.com>
 ENV SQUEEZE_VOL /srv/squeezebox
 ENV LANG C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
-ENV PACKAGE_VERSION_URL=http://www.mysqueezebox.com/update/?version=8.3.1&revision=1&geturl=1&os=deb
+ENV PACKAGE_VERSION_URL=https://downloads.slimdevices.com/LogitechMediaServer_v8.3.1/logitechmediaserver_8.3.1_amd64.deb
 
 RUN apt-get update && \
 	apt-get -y install \
