@@ -8,6 +8,7 @@ ENV PACKAGE_VERSION_URL=https://downloads.slimdevices.com/LogitechMediaServer_v8
 
 RUN apt-get update && \
 	apt-get -y install \
+		libcrypt-openssl-rsa-perl \
 		curl \
 		wget \
 		faad \
